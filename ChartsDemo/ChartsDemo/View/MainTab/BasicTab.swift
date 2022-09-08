@@ -28,9 +28,9 @@ struct BasicTab: View {
             case .empty:
                 Text("Select data to view.")
             case .line:
-                LineChart1()
-            case .dualAxisLine:
-                LineChart2()
+                LineChart()
+            case .dualYAxisLine:
+                DualYAxisLineChart()
             case .bar:
                 BarChart()
             case .horizontalBar:

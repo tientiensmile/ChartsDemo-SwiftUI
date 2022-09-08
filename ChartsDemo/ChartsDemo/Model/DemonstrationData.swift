@@ -19,7 +19,7 @@ struct DemonstrationData: Identifiable {
 enum Demonstration {
     case empty
     case line
-    case dualAxisLine
+    case dualYAxisLine
     case bar
     case horizontalBar
     case combined

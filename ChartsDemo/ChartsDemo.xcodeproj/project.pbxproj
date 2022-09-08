@@ -11,8 +11,8 @@
 		6E22E42628C9FEFB00146736 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22E42528C9FEFB00146736 /* ContentView.swift */; };
 		6E22E42828C9FEFD00146736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E22E42728C9FEFD00146736 /* Assets.xcassets */; };
 		6E22E42B28C9FEFD00146736 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E22E42A28C9FEFD00146736 /* Preview Assets.xcassets */; };
-		6E22E43428CA044500146736 /* LineChart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22E43328CA044500146736 /* LineChart1.swift */; };
-		6E22E43728CA046B00146736 /* LineChart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22E43628CA046B00146736 /* LineChart2.swift */; };
+		6E22E43428CA044500146736 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22E43328CA044500146736 /* LineChart.swift */; };
+		6E22E43728CA046B00146736 /* DualYAxisLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22E43628CA046B00146736 /* DualYAxisLineChart.swift */; };
 		6E22E43928CA048000146736 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22E43828CA048000146736 /* BarChart.swift */; };
 		6E22E43B28CA081400146736 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22E43A28CA081400146736 /* OverviewView.swift */; };
 		6E22E43D28CA0BAA00146736 /* ChartListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22E43C28CA0BAA00146736 /* ChartListData.swift */; };
@@ -47,8 +47,8 @@
 		6E22E42528C9FEFB00146736 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6E22E42728C9FEFD00146736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E22E42A28C9FEFD00146736 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6E22E43328CA044500146736 /* LineChart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart1.swift; sourceTree = "<group>"; };
-		6E22E43628CA046B00146736 /* LineChart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart2.swift; sourceTree = "<group>"; };
+		6E22E43328CA044500146736 /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		6E22E43628CA046B00146736 /* DualYAxisLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualYAxisLineChart.swift; sourceTree = "<group>"; };
 		6E22E43828CA048000146736 /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
 		6E22E43A28CA081400146736 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
 		6E22E43C28CA0BAA00146736 /* ChartListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartListData.swift; sourceTree = "<group>"; };
@@ -130,8 +130,8 @@
 		6E22E43528CA044900146736 /* BasicChart */ = {
 			isa = PBXGroup;
 			children = (
-				6E22E43328CA044500146736 /* LineChart1.swift */,
-				6E22E43628CA046B00146736 /* LineChart2.swift */,
+				6E22E43328CA044500146736 /* LineChart.swift */,
+				6E22E43628CA046B00146736 /* DualYAxisLineChart.swift */,
 				6E22E43828CA048000146736 /* BarChart.swift */,
 				6E22E44128CA14D100146736 /* HorizontalBarChart.swift */,
 				6E22E44328CA159E00146736 /* CombinedChart.swift */,
@@ -266,7 +266,7 @@
 				6E22E45228CA168E00146736 /* AnotherBarChart.swift in Sources */,
 				6E22E46028CA185700146736 /* CubicLineChart.swift in Sources */,
 				6E22E46C28CA18B100146736 /* FilledLineChart.swift in Sources */,
-				6E22E43728CA046B00146736 /* LineChart2.swift in Sources */,
+				6E22E43728CA046B00146736 /* DualYAxisLineChart.swift in Sources */,
 				6E22E43B28CA081400146736 /* OverviewView.swift in Sources */,
 				6E22E44E28CA164C00146736 /* StackedBarChart.swift in Sources */,
 				6E22E45728CA174F00146736 /* AdvancedTab.swift in Sources */,
@@ -288,7 +288,7 @@
 				6E22E45028CA167700146736 /* NagativeStackedBarChart.swift in Sources */,
 				6E22E45428CA16EA00146736 /* BasicTab.swift in Sources */,
 				6E22E43D28CA0BAA00146736 /* ChartListData.swift in Sources */,
-				6E22E43428CA044500146736 /* LineChart1.swift in Sources */,
+				6E22E43428CA044500146736 /* LineChart.swift in Sources */,
 				6E22E46228CA186400146736 /* RadarChart.swift in Sources */,
 				6E22E46628CA188900146736 /* SinusBarChart.swift in Sources */,
 			);

@@ -1,5 +1,5 @@
 //
-//  LineChart2.swift
+//  DualYAxisLineChart.swift
 //  ChartsDemo
 //
 //  Created by CM0763 on 2022/9/8.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct LineChart2: View {
+struct DualYAxisLineChart: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct LineChart2_Previews: PreviewProvider {
+struct DualYAxisLineChart_Previews: PreviewProvider {
     static var previews: some View {
-        LineChart2()
+        DualYAxisLineChart()
     }
 }

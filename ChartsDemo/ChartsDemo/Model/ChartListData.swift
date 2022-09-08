@@ -15,7 +15,7 @@ struct ChartListData {
               demonstration: .line),
         .init(title: "Line Chart (Dual YAxis)",
               subtitle: "Demonstration of the linechart with dual y-axis.",
-              demonstration: .dualAxisLine),
+              demonstration: .dualYAxisLine),
         .init(title: "Bar Chart",
               subtitle: "A simple demonstration of the bar chart.",
               demonstration: .bar),
